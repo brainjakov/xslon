@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />	
+	
+	<title>XSLON</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/fonts.css">	
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- Modal enter-system -->
+<div class="modal fade enter-system" id="enterSystem" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        
+      </div>
+      <div class="modal-body">
+	  <div class="col-xs-12 col-ms-12 col-md-12 col-lg-12">
+	  <h4 class="modal-title tac" id="myModalLabel">Вход в систему</h4>
+	  </div>
+			<form class="form-horizontal" role="form" method="POST" action="https://xslon.com/login">
+				<input type="hidden" name="_token" value="j1QpdGsH2Z4gHZzBQUuL3qoyvlUV80x986UAZflV">
+				
+					<div class="form-group">
+						<div class="col-md-10 col-md-offset-1"><input type="email" class="form-control" name="email" value="" placeholder="e-mail" required></div>
+					</div>
+					
+					<div class="form-group fix-last-input">
+						<div class="col-md-10 col-md-offset-1"><input type="password" class="form-control" name="password" placeholder="пароль" required></div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-md-10 col-md-offset-1">						
+							<a class="btn btn-link repass cp" aria-hidden="true" data-dismiss="modal" data-toggle="modal" data-target="#resetPassword">Забыли пароль?</a>
+							<button type="submit" class="btn btn-primary"><i class="fa fa-btn fa-sign-in"></i>Вход</button>
+						</div>
+					</div>
+			</form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END Modal enter-system -->
+
+<!-- Modal Reset Password -->
+<div class="modal fade enter-system reset-password" id="resetPassword" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        
+      </div>
+      <div class="modal-body">
+	  <div class="col-xs-12 col-ms-12 col-md-12 col-lg-12">
+	  <h4 class="modal-title tac" id="myModalLabel">Восстановление пароля</h4>
+	  </div>
+			<form class="form-horizontal pr" role="form" method="POST" action="https://xslon.com/password/email">
+				<input type="hidden" name="_token" value="j1QpdGsH2Z4gHZzBQUuL3qoyvlUV80x986UAZflV">
+					
+					<div class="form-group fix-last-input">
+						<div class="col-md-10 col-md-offset-1"><input type="email" class="form-control" name="email" value="" placeholder="e-mail" required></div>
+					</div>
+
+				<div class="form-group">
+					<div class="col-md-10 col-md-offset-1"><button type="submit" class="btn btn-primary ma"><i class="fa fa-btn fa-sign-in"></i>Отправить</button></div>
+				</div>
+				
+<div class="arrpw-back-form back-stepf pa" aria-hidden="true" data-dismiss="modal" data-toggle="modal" data-target="#enterSystem">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.494 31.494" style="enable-background:new 0 0 31.494 31.494;" xml:space="preserve">
+<path style="fill:#009ef3;" d="M10.273,5.009c0.444-0.444,1.143-0.444,1.587,0c0.429,0.429,0.429,1.143,0,1.571l-8.047,8.047h26.554  c0.619,0,1.127,0.492,1.127,1.111c0,0.619-0.508,1.127-1.127,1.127H3.813l8.047,8.032c0.429,0.444,0.429,1.159,0,1.587  c-0.444,0.444-1.143,0.444-1.587,0l-9.952-9.952c-0.429-0.429-0.429-1.143,0-1.571L10.273,5.009z"></path>
+</svg>					
+</div>				
+				
+			</form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END Modal Reset Password -->
+
+
+		<div class="container">
+			<div class="wrapper__header">
+				<div class="ui-header-primary bsbx">
+					<div class="ui-header-primary__container bsbx ibws">
+						<div class="main-logo fl"></div>
+						<div class="fix-nav-menu fr bsbx"><ul class="main-nav-menu nav masthead-nav fl"><li><a href="">Помощь</a></li></ul>
+								<div class="enter-system-button cp bsbx fl" data-toggle="modal" data-target="#enterSystem">Вход в систему</div>
+						</div>
+					</div>	
+				</div>
+			</div>	
+		</div>
+
+<div class="ui-green-line-title ibws"><div class="container"><div class="tile-green-line-title">Грузоперевозки будущего. <span>Уже сегодня.</span> </div></div></div>	
+
+<div class="container mid_line-fix">
+	<div class="row fix-button-start">
+		<div class="col-xs-6 col-ms-6 col-md-6 col-lg-6">
+				<div class="title-on-start-button tac">Начните экономить на логистике<br>и грузоперевозках.</div>	
+				<a href="" class="ittem-buttton-start-block tac pr cp ma">
+						<span class="title-ittem-buttton-start-block sb pa">Я Заказчик.</span>
+				</a>				
+		</div>
+		
+		<div class="col-xs-6 col-ms-6 col-md-6 col-lg-6">
+			<div class="title-on-start-button tac">Получите новых заказчиков.<br>Больше заказов.</div>
+				<a href="" class="ittem-buttton-start-block tac pr cp ma">
+						<span class="title-ittem-buttton-start-block sb pa">Я Перевозчик.</span>
+				</a>
+		</div>		
+		
+		<div class="col-xs-12 col-ms-12 col-md-12 col-lg-12">
+			<div class="title-bottom-free tac sb">Используйте XSLON в своей работе<br>бесплатно!</div>
+		</div>
+		
+	</div>
+</div> 				
+	
+<footer>
+	<div class="container">
+		<div class="title-footer">© 2016 ООО "Xslon Technology Incorporation". Все права защищены. </div> 
+	</div> 	
+</footer>	
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
